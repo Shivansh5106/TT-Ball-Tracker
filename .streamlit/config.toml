@@ -1,0 +1,12 @@
+# Local app configuration: upload cap and pinned light theme.
+# The Streamlit default upload limit is 200 MB — raised here for full-length
+# 1080p/120 fps recordings. Restart the app after changing this file.
+[server]
+maxUploadSize = 400
+
+[theme]
+base = "light"
+primaryColor = "#E85D26"
+backgroundColor = "#FAFAF8"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1B1B1B"
